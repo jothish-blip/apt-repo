@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Felix
+Label: Felix Security Auditor
+Suite: stable
+Codename: stable
+Version: 2.0.0
+Architectures: amd64 arm64
+Components: main
+Description: Official APT repository for Felix Security Auditor
+Date: Sat, 10 Oct 2026 21:24:01 UTC
+MD5Sum:
+ 04293d324d0db21cbc506d79ebb39c88 669 main/binary-amd64/Packages
+ 4505e9117bfe6a78506e50a72387587d 473 main/binary-amd64/Packages.gz
+ c2ff7b44598808faedfb66576cc3c5fe 669 main/binary-arm64/Packages
+ 9d74574ac60f49562b006d6f1c8318b2 470 main/binary-arm64/Packages.gz
+SHA1:
+ c255a237f538258ff1dd67f3c7882874c6b2c803 669 main/binary-amd64/Packages
+ 53fc8771ee4bfd6fd475c1fd92f591541eb5b8f7 473 main/binary-amd64/Packages.gz
+ b22d49897fd2538a4ec19e62166ec971ad086179 669 main/binary-arm64/Packages
+ af491bf340e3946501e8cb55c5f8f659c245423e 470 main/binary-arm64/Packages.gz
+SHA256:
+ 0873cb81fecb45d87b2782c099ab38185dad86e1aa468d3a4b1ee2fe0d091210 669 main/binary-amd64/Packages
+ 4944b85ed818820fa9ddf57fa57ee8f3c15379b1c27efa4c662b0c554e127c2f 473 main/binary-amd64/Packages.gz
+ 83ac579487194715ed8efef4ea13277a8cf15a090b9d32227017511c6ede63ec 669 main/binary-arm64/Packages
+ 1267203d0e0ff5a73c9e8f596229251b7b1f51f572b599b6d40ad39cd41714a3 470 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+wsBcBAEBCAAQBQJqyqzxCRB3XoF3NOmCpgAAx4AIAEVj0gVT8udLDKQmR8dEkJXn
+h3aEk0DV1bI4pQMjSUU67udMg0V0i5UCPPe9Ho/pSujlg2MYmE9AtkrdS3Md5V2C
+QbEFWfzCpO3PxSkKseI/BpyiKSiVrBjRJWm0ThU/AXt0fuXA6/dydEtaeEohoTgB
+2NrOhJEDHFi0mKezblqvZjF9ib7socvGu3mRAusTgEHxuHEDasDEbsn+OOXczvf6
+K39GwxncnJezSMdYnV/SSvbjTgDLQEuvEgNNH/IB0sL9HkkoH+mzrlMawPa7V7CB
+EDNSOJeqvvnQSW5dCkaAs0mqNJqE7BSD9eKYQQ3C097MIqyoqXytmtBMo4M+E4A=
+=tsOr
+-----END PGP SIGNATURE-----
