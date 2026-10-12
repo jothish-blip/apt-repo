@@ -30,9 +30,10 @@ echo "[*] Installing Felix repository signing key..."
 curl -fsSL "${REPO_URL}/felix-archive-keyring.gpg" -o "${KEYRING_PATH}"
 chmod 0644 "${KEYRING_PATH}"
 
-echo "[*] Configuring APT source list (${SOURCES_PATH})..."
+ARCH="$(dpkg --print-architecture 2>/dev/null || echo amd64)"
+echo "[*] Configuring APT source list (${SOURCES_PATH}) for ${ARCH}..."
 cat <<EOF > "${SOURCES_PATH}"
-deb [signed-by=${KEYRING_PATH} arch=amd64] ${REPO_URL} stable main
+deb [signed-by=${KEYRING_PATH} arch=${ARCH}] ${REPO_URL} stable main
 EOF
 chmod 0644 "${SOURCES_PATH}"
 

@@ -10,8 +10,8 @@ Description: Deterministic web security auditing platform
  Felix is an evidence-first, non-destructive web security auditing platform written in Go.
  Audits web assets, JavaScript bundles, APIs, and cloud backends without invasive exploits.
 Filename: pool/main/f/felix/felix_2.0.0_amd64.deb
-Size: 7487318
-MD5sum: 1e081af498544cd3a2efc079560acf63
-SHA1: b443762c6b86ac5590b1c50957fc067fa3ecc857
-SHA256: a9d203a55f20c514b8eda7a929b65b811c879a9331256ade8872ae00dacb624d
+Size: 7487314
+MD5sum: e763d87d8681c040505293856b9da65b
+SHA1: ea791971d31a1f588fdddcf5070028b4e6f18315
+SHA256: 279f00648ce86c0daec09e14c6a33fc13de412ace064eebcec150ed9d60cde96
 

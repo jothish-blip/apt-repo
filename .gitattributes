@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.gpg binary
+*.deb binary
+*.gz binary
+InRelease text eol=lf
+Release text eol=lf
+Release.gpg text eol=lf
+Packages text eol=lf
+setup.sh text eol=lf

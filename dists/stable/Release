@@ -3,16 +3,22 @@ Label: Felix Security Auditor
 Suite: stable
 Codename: stable
 Version: 2.0.0
-Architectures: amd64
+Architectures: amd64 arm64
 Components: main
 Description: Official APT repository for Felix Security Auditor
-Date: Mon, 12 Oct 2026 13:51:55 UTC
+Date: Mon, 12 Oct 2026 14:33:00 UTC
 MD5Sum:
- 505bbd9ef6f962650dbb9d85a48bf7bc 669 main/binary-amd64/Packages
- fea592ebf639c9ce268d2fa5db99e0e9 472 main/binary-amd64/Packages.gz
+ 22262b32b04dfb8d3f21d38ca841317b 669 main/binary-amd64/Packages
+ bc7968499f2ee04966f942f7426bec07 473 main/binary-amd64/Packages.gz
+ fc700c4fc9516fef31b1c0f033b4f940 669 main/binary-arm64/Packages
+ 82e9e57084d6f0f3d3fa556cfd7065d5 470 main/binary-arm64/Packages.gz
 SHA1:
- 000dd7fd234e3e49bd7464507938def832f57cdf 669 main/binary-amd64/Packages
- 93b05354687702abc8f0581f2f3f6def64877404 472 main/binary-amd64/Packages.gz
+ 7e48cb8b2105948db8c53ee086b13c20c5682012 669 main/binary-amd64/Packages
+ baae37b97ed1a2af7092e9314e125c4846197bdb 473 main/binary-amd64/Packages.gz
+ dc950b951b0370b9f363810b880bcfe1d66b2e6d 669 main/binary-arm64/Packages
+ ffd657829ebb6c26a4077b8445c4c2921011f8f5 470 main/binary-arm64/Packages.gz
 SHA256:
- aaa5ca7e532466d926fd6f7b251d3e9787187cc1eeb1d3a8e6ebcc4606761513 669 main/binary-amd64/Packages
- 8833538a897d198d1edfd2f9892c7047ef567dd1fc3c576b70ffd7dd38a84266 472 main/binary-amd64/Packages.gz
+ 004e3c247cb28d49d4a34e0de294598f8674b98e8bdcc0c662466ae6196e43f9 669 main/binary-amd64/Packages
+ daba763b25760f7f5d8939631f496ecb3aeda49a917b14ea6115644e5fa01cd3 473 main/binary-amd64/Packages.gz
+ 016cc12adcf3cf36417ccab0baacf9bc66b9151596e614634441bfeaff4bcc1a 669 main/binary-arm64/Packages
+ 642a1c9c0159729f3a846a7a15426871c694bbc235d234a2be9c3222880d40e9 470 main/binary-arm64/Packages.gz
