@@ -2,7 +2,7 @@ Package: felix
 Version: 2.0.0
 Architecture: amd64
 Maintainer: Jothish <jothishgandham2@gmail.com>
-Installed-Size: 17489
+Installed-Size: 17499
 Section: utils
 Priority: optional
 Homepage: https://github.com/jothish-blip/felix
@@ -10,8 +10,8 @@ Description: Deterministic web security auditing platform
  Felix is an evidence-first, non-destructive web security auditing platform written in Go.
  Audits web assets, JavaScript bundles, APIs, and cloud backends without invasive exploits.
 Filename: pool/main/f/felix/felix_2.0.0_amd64.deb
-Size: 7482880
-MD5sum: 50d1f09da45ba9a2b6aa9561982a11a0
-SHA1: fe8c9806e6e8bf48daa14bd52e614396be206b2c
-SHA256: 4b6bc7b496135229d9dc5cf5e3bc22a174b563206603a7cb8a4f757cb796bc9f
+Size: 7487318
+MD5sum: 1e081af498544cd3a2efc079560acf63
+SHA1: b443762c6b86ac5590b1c50957fc067fa3ecc857
+SHA256: a9d203a55f20c514b8eda7a929b65b811c879a9331256ade8872ae00dacb624d
 
