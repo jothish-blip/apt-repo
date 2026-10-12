@@ -18,6 +18,20 @@ if ! command -v curl >/dev/null 2>&1; then
     apt-get update -qq && apt-get install -y -qq curl
 fi
 
+# Pre-flight: Remediate any legacy 0-byte or corrupt shadowing files in precedence paths
+for shadow_bin in /usr/local/bin/felix /usr/local/sbin/felix; do
+    if [ -L "${shadow_bin}" ] && [ ! -e "${shadow_bin}" ]; then
+        echo "[i] Cleaning up broken symlink at ${shadow_bin}..."
+        rm -f "${shadow_bin}"
+    elif [ -f "${shadow_bin}" ] && [ ! -s "${shadow_bin}" ]; then
+        echo "[i] Cleaning up legacy 0-byte file at ${shadow_bin}..."
+        rm -f "${shadow_bin}"
+    elif [ -f "${shadow_bin}" ] && grep -qi "<html>\|<head>\|404: Not Found" "${shadow_bin}" 2>/dev/null; then
+        echo "[i] Cleaning up corrupt HTML download at ${shadow_bin}..."
+        rm -f "${shadow_bin}"
+    fi
+done
+
 KEYRING_DIR="/etc/apt/keyrings"
 KEYRING_PATH="${KEYRING_DIR}/felix-archive-keyring.gpg"
 SOURCES_PATH="/etc/apt/sources.list.d/felix.list"

@@ -9,36 +9,36 @@ Version: 2.0.0
 Architectures: amd64 arm64
 Components: main
 Description: Official APT repository for Felix Security Auditor
-Date: Mon, 12 Oct 2026 14:33:00 UTC
+Date: Mon, 12 Oct 2026 16:27:44 UTC
 MD5Sum:
- 22262b32b04dfb8d3f21d38ca841317b 669 main/binary-amd64/Packages
- bc7968499f2ee04966f942f7426bec07 473 main/binary-amd64/Packages.gz
- fc700c4fc9516fef31b1c0f033b4f940 669 main/binary-arm64/Packages
- 82e9e57084d6f0f3d3fa556cfd7065d5 470 main/binary-arm64/Packages.gz
+ eb7dc8389b2969073545e0131a3d969c 669 main/binary-amd64/Packages
+ 238a2ab8aa46bb1ed94785b501090543 473 main/binary-amd64/Packages.gz
+ 834c7d34cc2d7de6fa936b036210233a 669 main/binary-arm64/Packages
+ 830eb56b44f21135cef1c83c2f2fa03b 475 main/binary-arm64/Packages.gz
 SHA1:
- 7e48cb8b2105948db8c53ee086b13c20c5682012 669 main/binary-amd64/Packages
- baae37b97ed1a2af7092e9314e125c4846197bdb 473 main/binary-amd64/Packages.gz
- dc950b951b0370b9f363810b880bcfe1d66b2e6d 669 main/binary-arm64/Packages
- ffd657829ebb6c26a4077b8445c4c2921011f8f5 470 main/binary-arm64/Packages.gz
+ c1cd922e9370d3f5e8ceca726af0c6e51acc288c 669 main/binary-amd64/Packages
+ 2fce1e3a2eb5f416c1175ee1fde5f620dd09c1ae 473 main/binary-amd64/Packages.gz
+ fe97a62a4a51d7f5fd75bfd1b035e780eb90890d 669 main/binary-arm64/Packages
+ 28e40e0c7a2de5fec2ae0ce265f5b6b9db16b308 475 main/binary-arm64/Packages.gz
 SHA256:
- 004e3c247cb28d49d4a34e0de294598f8674b98e8bdcc0c662466ae6196e43f9 669 main/binary-amd64/Packages
- daba763b25760f7f5d8939631f496ecb3aeda49a917b14ea6115644e5fa01cd3 473 main/binary-amd64/Packages.gz
- 016cc12adcf3cf36417ccab0baacf9bc66b9151596e614634441bfeaff4bcc1a 669 main/binary-arm64/Packages
- 642a1c9c0159729f3a846a7a15426871c694bbc235d234a2be9c3222880d40e9 470 main/binary-arm64/Packages.gz
+ bad7b5aa774b8b9f856aa1f17ad9d1c1b53f4f9563aa275f6a414699fcda1b56 669 main/binary-amd64/Packages
+ d2d9c82103af6bdbaed0cc0f6329821f00f6deead5b9827ff372ed03bbdf6c6d 473 main/binary-amd64/Packages.gz
+ 860eae3f3765cbb2c62e12f9d66096076119d08538e6eb91303650069f8551a4 669 main/binary-arm64/Packages
+ a504639434e4e754f12c66d2afe8d84356ef46c139fa2aac813b964aa467c891 475 main/binary-arm64/Packages.gz
 
 -----BEGIN PGP SIGNATURE-----
 
-wsGpBAEBCABdBYJqzO+cCRAVSwiP41elPTUUAAAAAAAcABBzYWx0QG5vdGF0aW9u
-cy5vcGVucGdwanMub3JnvjpQgkT8yc9h2qBXMeLdKBYhBIq/aNAlOhOVd8oG5xVL
-CI/jV6U9AADxYw//UQJGxXba20HdebLbfldtMqLtR2Xn+5aZgvoiEhNWlymQBqjY
-F8jWVMv4SPUcj1LRCJtPvUF5jfExC+7vLZy91DfdIFAXyXcBImWpy/td7EYPeLqa
-kNsSBouxZnwP7aDyk9MzxXmrkdz2KX5Huzw+C9chITkcQPJ3YaIlgYvTyR87CaXV
-I0S2a/FuNgNBA7jDf03C08kE35XjrTS83gw6EP9bc16nndVMXJsQGAInN2MPAhqR
-7/+pItdSay6nPNOTHCJbuMNfU5JGK+J3RoaE0x088QfsKr9Bq3p8iEBUtVSThU9h
-MjfKTiSEwAG+Ua5XG1cklhZynH8T9GvAAFaz1kEXRZz2jSFN118Sx5PrAuZePfoq
-LWi+SNi3BDeHiZ+Aa564eYMqmDHP0umw6RHaD3fU3Ds8tcHWIzZ00w9aEDR2mBNq
-L83hyQ4vozWE9OBK5tpOo2P9u4wOKx9/c1ElQyOj79R5q8oIbhSNn9s0mNDJfT3U
-Fr0KiM4hWQBi1gNFcSrKbq06qIMQTBBjhk0+pi1AR4N1BEvuwPg5GAcXmhz4JyNB
-+MY5QEdlq4Vv4z0+ah3JsNCsah9uIkf7wwqqp//1nqhCiZX8PC/YJmpECfYSm6Iu
-IX3vvO6ozJyDLbjBRtuhc6dMqzeFGBC7J2fTOh1nfRL3v3QjQQbTMqVnSJw=
+wsGpBAEBCABdBYJqzQqACRAVSwiP41elPTUUAAAAAAAcABBzYWx0QG5vdGF0aW9u
+cy5vcGVucGdwanMub3JnCMopxFEUg+Lkyqte2LoUSxYhBIq/aNAlOhOVd8oG5xVL
+CI/jV6U9AABL0g//XZLLjwqeu8Ks8n+ogx/3d972xw7KNBQ+gOUk80ms6qnAsk6P
+wNefHdwEzGD7KH8TZXn65EHFtfOqPCec+t6MzagEgmMgTzqWfJKJvlrWgIUVaQaF
+zMC+6+Q6iPCYFWZN9AuqN9ZA+VFicZrlrx4sa792GNa2W6gLHvajaCAGRJyjRyF/
+lHEq1RlXXPGq9KTO48sBvS1xW3XT/elxEfvgMvOBZbkW2gvwcKyhsEiIc+ZT8seZ
+lv9VSifHHHU+YrxMEHaLuJ5SG3iKsSqdcgU/pw+lcRh4FQFaqz2xLDZqMTT3p4tx
+Tm8YiEq3R1BRqgMACY7pcYHuA0kmJLhB51Sd/gXPn2/kAQgV2GHW86Ipdw99qusu
+IoSOrR8TMBQGQYkK9eCXlexETTub/dtjhhLbbMo+56pk4U919zu4X5ytOBQtHOcF
+cYnd05WbhZBgXolpF2tEF/HpdigE27PjLHEKpVXPaRCXw6eWEz3/AL4/qjMgjGyZ
+SiDYRUaLp1IeYNRH8hwQ+MjfLy7c2/GMz87W3n0KpSJWe2TQzsk33KJlwtEsj5EI
+5NBGqiCm2sfOF6KjxpHtyVhuxiyE0YDXZ/EV3tYJrEBzu/6Ipcb2RwaQuZGg9pHs
+eM7AIJIBkK5vR/rKbf3wYOlM7SulNqShg0Yba/En3C3yGppX7T+i37e6DB8=
 -----END PGP SIGNATURE-----
